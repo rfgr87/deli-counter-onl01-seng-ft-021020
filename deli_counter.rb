@@ -12,7 +12,6 @@ def line(deli_line)
     end 
     puts string
   end
-end
 
 def take_a_number(line, name)
   position = 0;
