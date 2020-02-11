@@ -1,13 +1,13 @@
 # Write your code here.
 
 def line(deli_line)
-  string = "The line is currently: "
+  string = "The line is currently:"
   number = 0;
   if deli_line.length == 0 
     puts "The line is currently empty."
   else  
     while number < deli_line.length
-      string = string + "#{number+1}. #{deli_line[number]} "
+      string = string + " #{number+1}. #{deli_line[number]}"
       number += 1
     end 
     puts string
