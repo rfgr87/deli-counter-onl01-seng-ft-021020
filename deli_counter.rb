@@ -7,11 +7,11 @@ def line(deli_line)
     puts "The line is currently empty."
   else  
     while number < deli_line.length
-      string = string + "#{number+1}. #{deli_line[number]}."
+      string = string + "#{number+1}. #{deli_line[number]}"
       number += 1
     end 
   end
-  string
+  puts string
 end
 
 def take_a_number(line, name)
