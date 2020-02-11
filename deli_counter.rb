@@ -10,8 +10,8 @@ def line(deli_line)
       string = string + "#{number+1}. #{deli_line[number]}"
       number += 1
     end 
+    puts string
   end
-  puts string
 end
 
 def take_a_number(line, name)
